@@ -4,7 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import calculator.Calculator;
+import sis.studentinfo.Student;
+
 
 public class StudentTest {
 
@@ -15,9 +16,5 @@ public class StudentTest {
 		assertEquals("재성", studentName);
 	}
 	
-	@Test
-	public void calculate() throws Exception {
-		Calculator cal = new Calculator();
-	}
 
 }
